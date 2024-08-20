@@ -1,0 +1,181 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #062134;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3{
+    flex: 1;
+    padding: 10px;
+}
+
+.col-2{
+    flex: 2;
+    padding: 10px;
+}
+
+.col-3{
+    flex: 3;
+}
+
+header{
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 900px;
+    height: 70px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main{
+    width: 900px;
+    height: 860px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+footer{
+    width: 900px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion span{
+    color: blue;
+}
+
+
+.navegacion h1{
+    font-size: 30px;
+    color: white;
+}
+
+.navegacion span{
+    color: #1276b3;
+}
+
+.imagen-main{
+    width: 100%;
+    padding: 10px;
+}
+
+.imagen-services{
+    width: 33px;    
+}
+
+.contenido {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.contenido h2{
+    font-size: 30px;
+    margin-left: 15px;
+    color: white;
+}
+
+.contenido p{
+    color: white;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.fondo-azul{
+    background-color: #1468a8;
+    margin: 10px;
+
+}
+
+.btn{
+    background-color: #4cafec;
+    width: 130px;
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px;
+}
+
+.mundo{
+    font-size: 19.5px;
+    margin-top: 5px;
+}
+
+.edificio{
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+
+.alineado p{
+    font-size: 12px;
+    margin: 13px;
+}
+
+.alineado a{
+    text-decoration: none;
+    margin: 13px;
+}
+
+
+.testimonio{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.parrafo{
+    padding: 30px;
+    background-color: #daedff;
+}
+
+.testimonio-final{
+    margin-top: 10px;
+}
+
+
+.fondo{
+    background-color: #daedff;
+    
+}
+
+.fondo a{
+    text-decoration: none;
+    color: #6f9abc;
+    margin-left: 13px;
+    font-size: 12px;
+}
+.fondo span{
+    color: skyblue;
+}
+
+
+

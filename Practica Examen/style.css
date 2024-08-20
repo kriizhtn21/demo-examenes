@@ -1,0 +1,160 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3{
+    flex: 1;
+    padding: 10px;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+header{
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 900px;
+    margin: 0 auto;
+}
+
+main{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+section{
+    width: 900px;
+}
+
+.titulo-main{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #c27ba0;
+    color: white;
+    font-size: 8px;
+}
+
+.encabezado{
+    align-items: center;
+    margin-top: 7px;
+}
+
+.encabezado h2{
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.buscador{
+    margin-top: 10px;
+    align-items: center;
+    width: 600px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.carrito{
+    margin-top: 10px;
+    align-items: center;
+    width: 30px;
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    background-color: #dddddd;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-medio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 900px;
+    height: 100px;
+    background-color: #c27ba0;
+    color: white;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.titulo-bajo{
+    margin-top: 25px;
+}
+
+.titulo-bajo span{
+    font-weight: bold;
+}
+
+.selling{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+section img{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+section h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    background-color: #c27ba0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.productos{
+    font-weight: bold;
+    border-bottom: 3px solid #c27ba0;
+}
