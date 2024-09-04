@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3{
+    flex: 1;
+    padding: 10px;
+}
+
+.col-2{
+    flex: 2 ;
+}
+
+.col-3{
+    flex: 3;
+}
+
+nav{
+    width: 1000px;
+    height: 50px;
+    background-color: #FFFF;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.imagen-logo{
+    width: 30px;
+}
+
+.navegacion a{
+
+    text-decoration: none;
+    color: #767676;
+    align-items: center;
+    margin: 15px;
+    font-size: 17px;
+
+}
+
+.btn-1{
+    float: right;
+    background-color: #04ddb2;
+    border: none;
+    border-radius: 50px;
+    color: #FFF;
+    width: 90px;
+    height: 35px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.titulo span{
+    color: #04ddb2;
+
+}
+
+.titulo-2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.parrafo{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tour{
+    font-weight: bold;
+}
+
+
+
+.imagen-centro{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #e9edf0;
+    width: 800px;
+    height: 450px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.btn-2{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #04ddb2;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+
+.linea{
+    width: 1000px;
+    height: 2px;
+    background-color: #eaeaea;
+}
+
+.logo-twitter{
+    padding: 8px;
+    border-radius: 120px;
+    background-color: #04ddb2;
+    color: white;
+    margin: 10px;
+}
+
+.negro{
+    font-weight: bold;
+}
+
+footer article{
+    margin: 3px;
+}
+
